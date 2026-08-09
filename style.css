@@ -1,0 +1,177 @@
+
+.header-content{
+   border-bottom: 3px solid #a09f9f;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logoCamau img{
+    height: 50px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{ 
+   margin: 0px 30px;
+   list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(28, 165, 219);
+}
+
+button {
+    color: white;
+    background-color: black;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-img {
+    margin: 30px 0 0 0;
+}
+
+.description h1{
+   color: rgb(99, 190, 152);
+   margin: 30px 5px 0 20px;
+}
+
+.description p {
+  color: orange;
+  border-bottom: 1px dotted black;
+  display: block;
+  font-style: italic;
+  margin: 30px 0 0 20px;
+  padding: 5px;
+}
+
+.description img{
+    height: 25px;
+}
+
+.description span{
+    color: rgb(94, 194, 234);
+}
+
+h1{
+    text-align: center;
+    color: rgb(99, 190, 152);
+}
+
+.Mangrove-forest {
+    display: flex;
+}
+
+.mangrove-content p{
+    font-style: italic;
+    margin: 40px 0 0 40px;
+}
+
+.Tour-Registration{
+    display: flex;
+}
+
+.title h2{
+    margin: 0 0 0 30px;
+    padding: 10px 20px 10px 30px;
+    color: white;
+    background-color:  #17a2a2;
+}
+
+select {
+    margin: 10px 0 0 30px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.Tour-Registration-content > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Tour-Registration-content label{
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.Tour-Registration-content select{
+    margin: 0 0 0 0px;
+}
+
+
+.Tour-Registration-content input, 
+.Tour-Registration-content select {
+    flex: 1;
+}
+
+label{
+    margin: 10px 0 0 30px;
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.button-booktour{
+    border-radius: 10px ;
+    margin: 0 0 0 195px;
+    justify-content: center;
+    background-color: orange;
+    height: 30px;
+    width: 120px;
+}
+
+.Tour-Registration{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.Tour-Registration-content {
+    background-color: #ded9cf;
+}
+
+.title {
+    background-color: #17a2a2;
+    padding: 10px 20px;
+}
+
+.Tour-Registration-content > div:not(.title) {
+    padding: 0 20px;
+}
+
+
+.contact{
+    display: flex;
+    background-color:  rgb(94, 194, 234);
+    justify-content: space-between;
+}
+
+.contact-content p{
+    color: white;
+    margin: 30px;
+}
+
+.contact-content h3{
+    color: white;
+    margin: 30px;
+}
+
+.services-content p{
+    color: white;
+    margin: 30px;
+}
+
+.services-content h3{
+    color: white;
+    margin: 30px;
+}
+
